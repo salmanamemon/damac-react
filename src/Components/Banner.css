@@ -1,0 +1,25 @@
+.banner {
+  background-size: cover;
+  min-height: 690px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 60px;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+.banner h1 span {
+  font-weight: 300;
+  display: block;
+  text-transform: uppercase;
+}
+@media (max-width: 767px) {
+  .banner {
+    min-height: 490px;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+}

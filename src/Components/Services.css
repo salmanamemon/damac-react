@@ -1,0 +1,50 @@
+.services {
+  padding: 114px 0 100px;
+}
+.services__inner {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+.services__card {
+  flex: 0 0 25%;
+  padding: 40px;
+  min-height: 422px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+.services__card h3 {
+  font-family: Poppins;
+  font-size: 26px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.services__card p {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+}
+@media (max-width: 767px) {
+  .services__card {
+    flex: 0 0 50%;
+  }
+  .services__card h3 {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .services__card p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 524px) {
+  .services__card {
+    flex: 0 0 100%;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+.our-vision {
+  padding: 60px 0;
+  border: solid 1px #d6cfcd;
+}
+.our-vision h2 {
+  font-size: 24px;
+  line-height: 42px;
+  color: #bb8a1a;
+  font-weight: 400;
+}
+.our-vision h3 {
+  font-size: 36px;
+  line-height: 50px;
+  color: #202124;
+  font-weight: 600;
+}
+.our-vision h3 span {
+  color: #bb8a1a;
+}

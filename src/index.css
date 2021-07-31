@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "damacicons";
+  src: url("assets/fonts/damacicons.eot?26jx3t");
+  src: url("assets/fonts/damacicons.eot?26jx3t#iefix")
+      format("embedded-opentype"),
+    url("assets/fonts/damacicons.ttf?26jx3t") format("truetype"),
+    url("assets/fonts/damacicons.woff?26jx3t") format("woff"),
+    url("assets/fonts/damacicons.svg?26jx3t#damacicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "damacicons" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Group-5305 .path1:before {
+  content: "\e900";
+  color: rgb(0, 0, 0);
+}
+.icon-Group-5305 .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5305 .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5305 .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5306 .path1:before {
+  content: "\e904";
+  color: rgb(26, 118, 242);
+}
+.icon-Group-5306 .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5350:before {
+  content: "\e906";
+  color: #d2a361;
+}
+.icon-Group-5351:before {
+  content: "\e907";
+  color: #d2a361;
+}
+.icon-Group-5352:before {
+  content: "\e908";
+  color: #d2a361;
+}
+.icon-Group-5365:before {
+  content: "\e909";
+  color: #d2a361;
+}
+.icon-Group-5367:before {
+  content: "\e90a";
+  color: #d2a361;
+}
+.icon-Group-5386 .path1:before {
+  content: "\e90b";
+  color: rgb(187, 138, 25);
+}
+.icon-Group-5386 .path2:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5387 .path1:before {
+  content: "\e90d";
+  color: rgb(35, 31, 31);
+}
+.icon-Group-5387 .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5388 .path1:before {
+  content: "\e90f";
+  color: rgb(187, 138, 25);
+}
+.icon-Group-5388 .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5388 .path3:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5388 .path4:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5389 .path1:before {
+  content: "\e913";
+  color: rgb(35, 31, 31);
+}
+.icon-Group-5389 .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5390 .path1:before {
+  content: "\e915";
+  color: rgb(187, 138, 25);
+}
+.icon-Group-5390 .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5391 .path1:before {
+  content: "\e917";
+  color: rgb(35, 31, 31);
+}
+.icon-Group-5391 .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5392 .path1:before {
+  content: "\e919";
+  color: rgb(187, 138, 25);
+}
+.icon-Group-5392 .path2:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5393 .path1:before {
+  content: "\e91b";
+  color: rgb(35, 31, 31);
+}
+.icon-Group-5393 .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5394 .path1:before {
+  content: "\e91d";
+  color: rgb(187, 138, 25);
+}
+.icon-Group-5394 .path2:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5394 .path3:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Group-5394 .path4:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-linkedin .path1:before {
+  content: "\e921";
+  color: rgb(0, 122, 185);
+}
+.icon-linkedin .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(241, 242, 242);
+}
+.icon-Path-5437:before {
+  content: "\e924";
+  color: #bb8a1a;
+}
+.icon-send:before {
+  content: "\e926";
+  color: #bb8a1a;
+}
+.icon-time:before {
+  content: "\e927";
+  color: #cbd0d3;
+}
+.icon-twitter .path1:before {
+  content: "\e928";
+  color: rgb(85, 172, 238);
+}
+.icon-twitter .path2:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(241, 242, 242);
+}
+.icon-menu:before {
+  content: "\e9bd";
+}

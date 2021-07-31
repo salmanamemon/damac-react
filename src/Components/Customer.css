@@ -1,0 +1,28 @@
+.customer {
+  padding: 100px 0;
+}
+.customer__inner {
+  padding-top: 60px;
+}
+.customer__box {
+  background-size: cover;
+  min-height: 169px;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  justify-content: center;
+}
+.customer__box a {
+  color: white;
+  text-decoration: underline;
+  font-size: 21px;
+  font-weight: 500;
+}
+@media (max-width: 767px) {
+  .customer__box {
+    margin-bottom: 20px;
+  }
+  .customer__box a {
+    font-size: 15px;
+  }
+}
